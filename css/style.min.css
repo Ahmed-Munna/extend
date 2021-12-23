@@ -1,0 +1,38 @@
+.box {
+  width: 1040px;
+  margin: auto; }
+  @media (max-width: 767px) {
+    .box {
+      background: #555555;
+      width: 100%; } }
+  .box h1, .box h6 {
+    background: #ccba81;
+    color: #3d3c3c;
+    font-size: 2rem;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase; }
+  .box h2 {
+    background: #84ce62;
+    color: #3d3c3c;
+    font-size: 2rem;
+    padding: 5px; }
+    @media (max-width: 767px) {
+      .box h2 {
+        width: 50px;
+        display: inline; } }
+  .box h3 {
+    background: #3ab477;
+    color: #3d3c3c;
+    font-size: 2rem;
+    padding: 5px; }
+  .box h4 {
+    background: #cf7676;
+    color: #3d3c3c;
+    font-size: 2rem;
+    padding: 5px; }
+  .box h5 {
+    background: #4d50fd;
+    color: #3d3c3c;
+    font-size: 2rem;
+    padding: 5px; }

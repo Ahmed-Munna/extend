@@ -1,0 +1,58 @@
+@import 'var';
+@import 'media';
+
+
+
+.box{
+    width: 1040px;
+    margin: auto;
+    @media #{$small_device}{
+        background: #555555;
+        width: 100%;
+    }
+
+
+    h1{
+        background: $bg-color-1;
+        color: $text-color;
+        font-size: 2rem;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h2{
+        background: $bg-color-2;
+        color: $text-color;
+        font-size: 2rem;
+        padding: 5px;
+        @media #{$small_device}{
+            width: 50px;
+            display: inline;
+        }
+    }
+    h3{
+        background: $bg-color-3;
+        color: $text-color;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    h4{
+        background: $bg-color-4;
+        color: $text-color;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    h5{
+        background: $bg-color-5;
+        color: $text-color;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    h6{
+        @extend h1;
+    }
+}
+
+
+
+
